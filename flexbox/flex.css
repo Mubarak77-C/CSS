@@ -1,0 +1,29 @@
+.flex-container {
+    display: flex;
+    width: 800px;
+    background-color: maroon;
+}
+
+/* padding: 20px  //because of this it not occupies full width length because each left padding and righ padding take 20px which total box 1 2 3 wll be 240 then 240*3 =720 remaing not 200px left with this reduce only 80 px remaing extra space understand this because padding shorthand of left and right occupied; */
+/* if remove padding it will equal to 200px each box with exta space ie marrom container box space empty */
+
+.box {
+
+    padding: 20px;
+    color: white;
+}
+
+.box1 {
+    background-color: aqua;
+    flex-basis: 200px;
+}
+
+.box2 {
+    background-color: blue;
+    flex-basis: 200px;
+}
+
+.box3 {
+    background-color: red;
+    flex-basis: 200px;
+}
