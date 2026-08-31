@@ -1,0 +1,32 @@
+/* body{
+    border:2px solid maroon;
+    background-color: blue;
+} */
+.container{
+    background-color: blue;
+    border: 2px solid red;
+    width: 400px;
+  height: 300px;
+}
+.box{
+    background-color: palevioletred;
+    text-align: center;
+    height: 120px;
+    width: 116px;
+    border: 2px solid rgb(128, 0, 79);
+    font-weight: bold;
+}
+
+/* SOLUTION */
+
+/* disclaimer: duplicating the `.container` selector here isn't best practice.
+In your solution you probably put it right inside the existing `.container`,
+which _is_ the best practice. 
+
+We separated it out here to make it extra clear what has changed. */
+
+.container{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
