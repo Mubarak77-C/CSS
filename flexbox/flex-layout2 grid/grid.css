@@ -1,8 +1,13 @@
-/* body{
-    background-color: aqua;
-} */
+body{
+   display:flex;
+   margin:0px;
+   flex-direction:column;
+}
  .header{
     background: purple;
+    width: 100%;
+    height: auto;
+    padding:14px 2px;
  }
 
  .main-section{
@@ -10,4 +15,10 @@
  }
  .footer-section{
     background: gray;
+ }
+
+ .title{
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: xx-large;
  }
