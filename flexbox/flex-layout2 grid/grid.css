@@ -2,16 +2,30 @@ body{
    display:flex;
    margin:0px;
    flex-direction:column;
+     min-height: 100vh;
+    /* Forces the body to take up the full viewport height */
+ 
 }
  .header{
     background: purple;
     width: 100%;
     height: auto;
-    padding:14px 2px;
+    padding:10px 2px;
  }
 
  .main-section{
+    
+
     background: lightblue;
+  display: grid;
+ flex: 1;
+  /* justify-content: end; */
+/*   
+  height: 100vh;
+  width: auto; */
+
+  grid-template-columns: 30% 70%;
+  width: 100%;
  }
  .footer-section{
     background: gray;
@@ -21,4 +35,14 @@ body{
     font-weight: bold;
     color: whitesmoke;
     font-size: xx-large;
+ }
+
+ .left-section{}
+
+ .footer-section{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    color: purple;
+    height: 2vh;
  }
