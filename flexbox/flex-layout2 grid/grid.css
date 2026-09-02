@@ -1,17 +1,25 @@
 body{
-   display:flex;
-   margin:0px;
-   flex-direction:column;
-     min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
     /* Forces the body to take up the full viewport height */
+      flex: 1;
+  display: flex;
+    flex-direction: column;
  
 }
  .header{
     background: purple;
     width: 100%;
-    height: auto;
-    padding:10px 2px;
- }
+    height: 72px;
+    /* padding:10px 2px; */
+     display: flex;
+  align-items: center;
+  padding: 0 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
+ 
 
  .main-section{
     
@@ -27,9 +35,9 @@ body{
   grid-template-columns: 30% 70%;
   width: 100%;
  }
- .footer-section{
+ /* .footer-section{
     background: gray;
- }
+ } */
 
  .title{
     font-weight: bold;
@@ -40,18 +48,58 @@ body{
  
 
  .footer-section{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    color: purple;
-    height: 2vh;
+     height: 72px;
+  background: #eee;
+  color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
  }
 
  .left-section {
-    background-color: skyblue;
+   width: 300px;
+  background: royalblue;
+  box-sizing: border-box;
+
+   flex-shrink: 0;
+  padding: 16px;
    
  }
+
+.card {
+  border: 1px solid #af1616;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+}
+
+
  ul{
     color: white;
-    
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+
  }
+
+ li {
+  margin-bottom: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.right-section{ 
+     padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card {
+  padding: 13px;
+  width: 200px;
+}
