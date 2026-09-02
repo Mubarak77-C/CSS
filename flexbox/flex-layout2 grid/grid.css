@@ -16,7 +16,7 @@ body{
  .main-section{
     
 
-    background: lightblue;
+    /* background: lightblue; */
   display: grid;
  flex: 1;
   /* justify-content: end; */
@@ -37,7 +37,7 @@ body{
     font-size: xx-large;
  }
 
- .left-section{}
+ 
 
  .footer-section{
     background-color: white;
@@ -45,4 +45,13 @@ body{
     justify-content: center;
     color: purple;
     height: 2vh;
+ }
+
+ .left-section {
+    background-color: skyblue;
+   
+ }
+ ul{
+    color: white;
+    
  }
