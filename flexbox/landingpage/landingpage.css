@@ -72,4 +72,61 @@ margin-top: 2px;
    /* Makes both columns take up equal available width 
 } */
 
+/* Main container */
+/* 1. Main container holding everything */
+.main-container{
+    background: lightseagreen;
+    padding: 40px;
+}
+/* 2. Center the title */
+.product-heading{
+    background: green;
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+/* 3. Grid for the 4 cards side-by-side */
+.card-section {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+    padding: 20px;
+}
 
+/* 4. Individual card wrapper keeping box and text together */
+.card {
+    background: lightpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* 5. The square box */
+.box{
+    background: rgb(32, 30, 30);
+    width: 150px;
+    height:150px;
+    padding:2px;
+   border: 4px solid orange;
+    border-radius: 20px;
+    margin-bottom: 4px;
+}
+/* 6. The text paragraph */
+.card-text {
+    text-align: center;
+    background: lightyellow;               /* Visual aid for text width */
+    font-size: 14px;
+}
+
+
+/* testimonial */
+.testimonial{
+    background: rgb(200, 255, 0);
+}
+.testimonial-content{
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
