@@ -121,12 +121,39 @@ margin-top: 2px;
 
 
 /* testimonial */
+/* 1. Full-width outer section for background color and padding */
 .testimonial{
-    background: rgb(200, 255, 0);
+   background: #e5e7eb; /* Professional light gray common in Odin Project */
+    padding: 100px 20px; /* Generous top/bottom padding to give the section breathing room */
+    display: flex;
+    justify-content: center;
 }
-.testimonial-content{
+/* .testimonial-content{
     background: pink;
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+/* 2. Inner container that controls the width and centers everything */
+.testimonial-content {
+    max-width: 800px;    /* Keeps the paragraph from stretching too wide to read */
+    width: 100%;
+}
+
+.testimonial-quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    line-height: 1.4;    /* Spacing between lines */
+    margin: 0 0 20px 0;  /* Space below the quote before the author */
+}
+
+.testimonial-author {
+    text-align: right;   /* Simple text alignment handles this cleanly */
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f2937;
+    margin: 0;
 }
