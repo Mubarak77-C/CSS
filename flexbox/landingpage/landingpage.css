@@ -1,0 +1,75 @@
+body{
+    margin:0;
+}
+.header .menu, .header-info{
+    background: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.link ul{
+   display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0px;
+   
+}
+.link a{
+    text-decoration: none;
+    color: #333;
+}
+
+.header-section-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;                      /* Adds space between the columns */
+    padding: 40px;
+}
+
+.header-left{
+    background: pink;
+    /* display: flex; */
+    align-items: center;
+    /* flex: 1;    
+     */
+}
+
+.header-left-title{
+font-weight: 900;
+color: white;
+font-size: 32px;
+}
+
+.header-left-content{
+    font-size: small;
+    color: white;
+}
+.signupbtn{
+   background: green;
+  width: 88px;
+  padding: 1px;
+margin-top: 2px;
+}
+.signupbtn button{
+    background-color: royalblue;
+    color: white;
+    font-weight: 900;
+    border-radius: 2px;
+    border-radius: 6px;
+  width: 75px;
+  height: 25px;
+
+}
+
+.header-right{
+    background-color: rebeccapurple;
+    /* flex: 1;  */
+}
+/* .header-left, .header-right {
+    flex: 1;   */
+   /* Makes both columns take up equal available width 
+} */
+
+
