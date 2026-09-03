@@ -1,7 +1,9 @@
-body{
-    margin:0;
+body {
+    margin: 0;
 }
-.header .menu, .header-info{
+
+.header .menu,
+.header-info {
     background: lightblue;
     display: flex;
     justify-content: space-around;
@@ -9,26 +11,28 @@ body{
 
 }
 
-.link ul{
-   display: flex;
-  list-style: none;
-  gap: 20px;
-  padding: 0px;
-   
+.link ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0px;
+
 }
-.link a{
+
+.link a {
     text-decoration: none;
     color: #333;
 }
 
-.header-section-info{
+.header-section-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;                      /* Adds space between the columns */
+    gap: 20px;
+    /* Adds space between the columns */
     padding: 40px;
 }
 
-.header-left{
+.header-left {
     background: pink;
     /* display: flex; */
     align-items: center;
@@ -36,62 +40,67 @@ body{
      */
 }
 
-.header-left-title{
-font-weight: 900;
-color: white;
-font-size: 32px;
+.header-left-title {
+    font-weight: 900;
+    color: white;
+    font-size: 32px;
 }
 
-.header-left-content{
+.header-left-content {
     font-size: small;
     color: white;
 }
-.signupbtn{
-   background: green;
-  width: 88px;
-  padding: 1px;
-margin-top: 2px;
+
+.signupbtn {
+    background: green;
+    width: 88px;
+    padding: 1px;
+    margin-top: 2px;
 }
-.signupbtn button{
+
+.signupbtn button {
     background-color: royalblue;
     color: white;
     font-weight: 900;
     border-radius: 2px;
     border-radius: 6px;
-  width: 75px;
-  height: 25px;
+    width: 75px;
+    height: 25px;
 
 }
 
-.header-right{
+.header-right {
     background-color: rebeccapurple;
     /* flex: 1;  */
 }
+
 /* .header-left, .header-right {
     flex: 1;   */
-   /* Makes both columns take up equal available width 
+/* Makes both columns take up equal available width 
 } */
 
 /* Main container */
 /* 1. Main container holding everything */
-.main-container{
+.main-container {
     background: lightseagreen;
     padding: 40px;
 }
+
 /* 2. Center the title */
-.product-heading{
+.product-heading {
     background: green;
     text-align: center;
     font-weight: 900;
     font-size: 28px;
     margin-bottom: 20px;
 }
+
 /* 3. Grid for the 4 cards side-by-side */
 .card-section {
     background-color: blue;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap:20px;
+    gap: 20px;
     padding: 20px;
 }
 
@@ -102,32 +111,38 @@ margin-top: 2px;
     flex-direction: column;
     align-items: center;
 }
+
 /* 5. The square box */
-.box{
+.box {
     background: rgb(32, 30, 30);
     width: 150px;
-    height:150px;
-    padding:2px;
-   border: 4px solid orange;
+    height: 150px;
+    padding: 2px;
+    border: 4px solid orange;
     border-radius: 20px;
     margin-bottom: 4px;
 }
+
 /* 6. The text paragraph */
 .card-text {
     text-align: center;
-    background: lightyellow;               /* Visual aid for text width */
+    background: lightyellow;
+    /* Visual aid for text width */
     font-size: 14px;
 }
 
 
 /* testimonial */
 /* 1. Full-width outer section for background color and padding */
-.testimonial{
-   background: #e5e7eb; /* Professional light gray common in Odin Project */
-    padding: 100px 20px; /* Generous top/bottom padding to give the section breathing room */
+.testimonial {
+    background: #e5e7eb;
+    /* Professional light gray common in Odin Project */
+    padding: 100px 20px;
+    /* Generous top/bottom padding to give the section breathing room */
     display: flex;
     justify-content: center;
 }
+
 /* .testimonial-content{
     background: pink;
     display: flex;
@@ -137,7 +152,8 @@ margin-top: 2px;
 
 /* 2. Inner container that controls the width and centers everything */
 .testimonial-content {
-    max-width: 800px;    /* Keeps the paragraph from stretching too wide to read */
+    max-width: 800px;
+    /* Keeps the paragraph from stretching too wide to read */
     width: 100%;
 }
 
@@ -146,12 +162,15 @@ margin-top: 2px;
     font-weight: 300;
     font-style: italic;
     color: #1f2937;
-    line-height: 1.4;    /* Spacing between lines */
-    margin: 0 0 20px 0;  /* Space below the quote before the author */
+    line-height: 1.4;
+    /* Spacing between lines */
+    margin: 0 0 20px 0;
+    /* Space below the quote before the author */
 }
 
 .testimonial-author {
-    text-align: right;   /* Simple text alignment handles this cleanly */
+    text-align: right;
+    /* Simple text alignment handles this cleanly */
     font-size: 20px;
     font-weight: bold;
     color: #1f2937;
@@ -160,14 +179,16 @@ margin-top: 2px;
 
 
 /* signup */
-.signup-section{
+.signup-section {
     background: red;
     display: flex;
     align-items: center;
-    padding:60px 20px;
+    padding: 60px 20px;
 }
+
 .signup-container {
-    background: #1f2937; /* Darker wrapper box to make it pop */
+    background: #2860ad;
+    /* Darker wrapper box to make it pop */
     color: white;
     width: 1000px;
     padding: 40px 60px;
@@ -177,6 +198,7 @@ margin-top: 2px;
     align-items: center;
     gap: 40px;
 }
+
 .signup-text h3 {
     margin: 0 0 8px 0;
     font-size: 24px;
@@ -187,6 +209,7 @@ margin-top: 2px;
     color: #e5e7eb;
     font-size: 16px;
 }
+
 .signup-btn {
     background: #3882f6;
     color: white;
@@ -203,3 +226,11 @@ margin-top: 2px;
     background: #2563eb;
 }
 
+.footer {
+     background: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    padding: 12px 2px;
+}
